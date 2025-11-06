@@ -1,6 +1,10 @@
 import streamlit as st
 import numpy as np
 import pickle
+import os
+from google import genai
+from google.genai import types
+
 
 
 st.set_page_config(page_title="Dr. Disease Detector", page_icon="👨‍⚕️", layout="centered")
